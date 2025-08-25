@@ -1,0 +1,26 @@
+# IDE 코드 스타일 유지
+
+# --- 프로젝트의 최상위 파일 명시
+root = true
+# --- 모든 파일에 적용될 기본 규칙임을 명시
+[*]
+
+# --- 들여쓰기 스페이스 공백 사용
+indent_stype = space
+# --- 들여쓰기 크기의 공백
+indent_size = 2
+# --- 줄바꿈 문자는 LF(\n)방식으로 통일
+end_of_line = lf
+# --- 파일 인코딩 문자 지정
+charset = utf-8
+# --- 저장 시 줄 끝의 공백 제거
+trim_trailing_whitespace = true
+# --- 저장 시 파일의 마지막에 항상 빈 줄 하나를 추가
+insert_final_newline = true
+
+# --- 한 줄의 최대 길이
+max_line_length = 80
+
+# --- 마크다운 파일에만 적용될 규칙을 별도 정의
+[*.md]
+trim_trailing_whitespace = false
